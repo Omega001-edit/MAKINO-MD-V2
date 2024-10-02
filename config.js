@@ -4,27 +4,27 @@ const chalk = require("chalk");
 //to enable function - true
 //to disable function - false
 //
-global.available = false;
-global.autoReadGc = false;
+global.available = true;
+global.autoReadGc = true;
 global.autoReadAll = false;
 global.antitags = false;
 
 
-//auto functioner
+//auto function
 global.autoTyping = false;                //make true to enable auto typing
 global.autoRecord = true;                //make true to enable auto recording
 global.groupevent = true;                //This is the new variable for controlling group event handling.
-global.statusseen = false;                 //make true to view statuses 
-global.ANTI_BOT = false;
-global.PM_BLOCKER = false;
-global.CHATBOT = false;
+global.statusseen = true;                 //make true to view statuses 
+global.ANTI_BOT = true;
+global.PM_BLOCKER = true;
+global.CHATBOT = true;
 
-global.SESSION_ID = process.env.SESSION_ID || ""
-global.Owner = ["2349151864541"]; //like 2347080968564 
-global.OwnerName =  "Tᴀɪʀᴀ Mᴀᴋɪɴᴏ";
+global.SESSION_ID = process.env.SESSION_ID || "taira_tech-qlF2hCDb#FKhbQHu9O5oer1E8JDTg-y0L7H1eJK8Yr5cp5yOYX9E
+global.Owner = ["23273031838"]; //like 2347080968564 
+global.OwnerName =  "Omega";
 global.BotName = "♱MAKINO-MD-V2♱♡⃤";
 global.packname = "♱MAKINO-MD-V2♱♡⃤";                             //Do not change.
-global.author = "TAIRA MAKINO";                               //Do not change.
+global.author = "TAIRA Omega";                               //Do not change.
 global.BotSourceCode = "https://github.com/anonphoenix007/MAKINO-MD-V2"; //Do not change.
 global.SupportGroupLink = "https://chat.whatsapp.com/DOVRqF006VHHZhiSNwJRce"; 
 global.SupportGroupLink = "https://chat.whatsapp.com/DOVRqF006VHHZhiSNwJRce"; //Do not change!
@@ -37,7 +37,7 @@ global.BotLogo = fs.readFileSync("./Assets/pic1.jpg");
 global.Thumb = fs.readFileSync("./Assets/pic7.jpg");
 global.Thumb1 = fs.readFileSync("./Assets/pic5.jpg");
 global.ErrorPic = fs.readFileSync("./Assets/pic7.jpg");
-global.OwnerNumber = [""] //Ignore,Unused
+global.OwnerNumber = ["23273031838"] //Ignore,Unused
 
 //
 global.ntilinkytvid = []
